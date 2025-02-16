@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { Card } from "./Component/Card";
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <div className='font-extrabold p-7'>
-      <p>asdfasf</p>
+    <div>
+      <Card />
     </div>
   )
 }
 
-export default App
+export default App;
